@@ -16,12 +16,12 @@ export const PageLearn = () => {
 	return (
 		<>
 			<h2 className="mb-3 text-xl">
-				Here are the C# concepts you need to learn:
+				Here is a good overview of basic C# concepts to learn:
 			</h2>
 			<ul className="list-disc ml-6">
 				{learnItems.map((learnItem, index) => {
 					return (
-						<li key={index} className="mb-2">
+						<li key={index} className="mb-0">
 							{learnItem}
 						</li>
 					);
